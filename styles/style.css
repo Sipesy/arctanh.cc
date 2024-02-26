@@ -1,12 +1,12 @@
 html {
 	background-color: black;
 	font-size: 16px;
-	font-family: 'PT Serif', serif;
+	font-family: 'Courier New', monospace;
 }
 
 body {
 	margin: 10px 10px 10px 10px;
-	border: 3px solid #ff6a4a;
+	border: 3px solid #ffe9a0;
 	padding: 20px;
 	background-color: white;
 }
@@ -19,7 +19,7 @@ header {
 	padding: 15px 30px;
 	text-align: left;
 	font-size: 50px;
-	font-family: 'Manjari', sans-serif;
+	font-family: 'Courier New', Courier, monospace;
 	background-color: inherit;
 }
 
@@ -29,7 +29,7 @@ nav {
 	margin: 10px -10px;
 	background-color: #333;
 	height: 45px;
-	font-family: 'Manjari', sans-serif;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 nav ul {
@@ -109,7 +109,7 @@ section:after {
 footer {
 	text-align: center;
 	padding: 10px;
-	font-family: 'Manjari', sans-serif;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 @media (max-width: 250px) {
