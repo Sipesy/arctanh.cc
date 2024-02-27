@@ -1,13 +1,13 @@
 html {
 	background-color: black;
 	font-size: 16px;
-	font-family: 'Courier New', monospace;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-	margin: 10px 10px 10px 10px;
-	border: 3px solid #ffe9a0;
-	padding: 20px;
+	margin: 20px 20px;
+	border: 3px solid #ff6a4a;
+	padding: 40px;
 	background-color: white;
 }
 
@@ -16,9 +16,9 @@ p {
 }
 
 header {
-	padding: 15px 30px;
+	padding: 35px 50px 10px 50px;
 	text-align: left;
-	font-size: 50px;
+	font-size: 24px;
 	font-family: 'Courier New', Courier, monospace;
 	background-color: inherit;
 }
@@ -96,7 +96,7 @@ li.dropdown {
 
 article {
 	float: left;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	width: 85%;
 }
 
