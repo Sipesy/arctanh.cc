@@ -2,13 +2,16 @@ html {
 	background-color: black;
 	font-size: 16px;
 	font-family: 'Courier New', Courier, monospace;
+	height: 100%;
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	margin: 20px 20px;
-	border: 3px solid #ff6a4a;
-	padding: 40px;
+	padding: 2%;
 	background-color: white;
+	height: 100%;
 }
 
 p {
@@ -34,7 +37,7 @@ nav {
 
 nav ul {
 	list-style-type: none;
-	padding: 5px;
+	padding: 0px;
 	display: inline;
 	margin: 0;
 	overflow: hidden;
@@ -60,44 +63,19 @@ li a:hover, .dropbtn:hover .dropbtn {
 	background-color: #111;
 }
 
-li.dropdown {
-	display: block;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	color: white;
-	background-color: inherit;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-
-.dropdown-content a{
-	color: white;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-}
-
-.dropdown-content a:hover {
-	background-color: #111;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-
 .active {
-	background-color: #ff6a4a;
+	background-color: #818181;
+}
+
+.content {
+	margin-bottom: auto;
 }
 
 article {
 	float: left;
 	padding: 10px 10px;
-	width: 85%;
+	width: 95%;
+	height: 95%;
 }
 
 section:after {
@@ -106,7 +84,8 @@ section:after {
 	clear: both;
 }
 
-footer {
+.footer {
+	flex-shrink: 0;
 	text-align: center;
 	padding: 10px;
 	font-family: 'Courier New', Courier, monospace;
